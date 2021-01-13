@@ -4,7 +4,7 @@ from database.db import initialize_db
 
 app = Flask(__name__)
 app.config['MONGODB_SETTINGS'] = {
-    'host' : 'mongodb://localhost:27017/customer.user'
+    'host' : 'mongodb://localhost:27017/your collection'
 }
 
 initialize_db(app)
