@@ -11,7 +11,7 @@ initialize_db(app)
 
 @app.route('/')
 def hello():
-    return 'welcome flask-mongoengine'
+    return {'message': 'ok'}
 
 
 @app.route('/user', methods=["GET"])
